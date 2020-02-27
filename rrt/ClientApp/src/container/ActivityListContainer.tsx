@@ -5,6 +5,14 @@ import { VisibilityFilters, ActivityAction, changeActivity, changeActivityAsync 
 import { Dispatch } from "redux";
 import { getVisibleActivitiesSelector } from "../selectors/selectors";
 
+interface ActivityListContainerProps { filter: string }
+
+const mapStateToProps = (state: State, ownProps: ActivityListContainerProps) => {
+    console.log("in ActivityListContainer")
+    return {
+        activities: getVisibleActivities(state.activities, ownProps.filter)
+    }
+}
 
 const getVisibleActivities = (activities: Activity[] | undefined, filter: string | undefined) => {
     console.log("#### getVisibleActivities");
@@ -15,7 +23,7 @@ const getVisibleActivities = (activities: Activity[] | undefined, filter: string
         default: throw new Error("unknown filter: " + filter);
     }
 }
-
+/*
 const mapStateToProps = (state: State) => {
     console.log("in ActivityListContainer")
     return {
@@ -24,6 +32,7 @@ const mapStateToProps = (state: State) => {
         //activities: getVisibleActivitiesSelector(state)
     }
 }
+*/
 const mapDispatchToProps = (dispatch: Dispatch<ActivityAction>) => {
     return {
         change: (activity: Activity) => dispatch(changeActivity(activity.id))

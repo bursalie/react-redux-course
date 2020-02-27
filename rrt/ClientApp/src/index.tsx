@@ -8,6 +8,7 @@ import { Provider } from 'react-redux';
 import { getActivities } from './api/activityApi';
 import { baseUrl, State, Activity } from './typesandconst/typesandconst';
 import { VisibilityFilters } from './actions/actions';
+import { Root } from './presentational/root';
 const rootElement = document.getElementById('root');
 const containerElement = document.getElementById('container');
 
@@ -19,11 +20,16 @@ getActivities(baseUrl).then((activities: Activity[]) => {
         async: { isFetching: false, msg: "" }
     }
     let store = configureStore(initial);
+    //ReactDOM.render(
+    //    <Provider store={store} >
+    //        <App />
+    //    </Provider>,
     ReactDOM.render(
         <Provider store={store} >
-            <App />
+            <Root />
         </Provider>,
         rootElement);
+    //    rootElement);
 });
 /*ReactDOM.render(
     <div>

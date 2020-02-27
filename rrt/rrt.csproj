@@ -40,10 +40,13 @@
     <None Remove="ClientApp\src\presentational\ActivityList.tsx" />
     <None Remove="ClientApp\src\presentational\AddActivity.tsx" />
     <None Remove="ClientApp\src\presentational\App.tsx" />
+    <None Remove="ClientApp\src\presentational\FilterLinkNav.tsx" />
     <None Remove="ClientApp\src\presentational\footer.tsx" />
+    <None Remove="ClientApp\src\presentational\FooterNav.tsx" />
     <None Remove="ClientApp\src\presentational\link.tsx" />
     <None Remove="ClientApp\src\presentational\Message.tsx" />
     <None Remove="ClientApp\src\presentational\PrintInfo.tsx" />
+    <None Remove="ClientApp\src\presentational\root.tsx" />
     <None Remove="ClientApp\src\presentational\spinner.tsx" />
     <None Remove="ClientApp\src\reducers\reducers.ts" />
     <None Remove="ClientApp\src\registerServiceWorker.js" />
@@ -76,10 +79,13 @@
     <TypeScriptCompile Include="ClientApp\src\presentational\ActivityList.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\AddActivity.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\App.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\presentational\FilterLinkNav.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\footer.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\presentational\FooterNav.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\link.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\Message.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\PrintInfo.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\presentational\root.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\spinner.tsx" />
     <TypeScriptCompile Include="ClientApp\src\reducers\reducers.ts" />
     <TypeScriptCompile Include="ClientApp\src\registerServiceWorker.js" />
