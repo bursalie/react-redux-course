@@ -7,7 +7,6 @@ type AddActivityState = {
     count:number
 }
 export class AddActivity extends React.Component<AddActivityProps, AddActivityState>{
-
     readonly state: AddActivityState = {
         count:0
     }
@@ -27,10 +26,11 @@ export class AddActivity extends React.Component<AddActivityProps, AddActivitySt
                     <button id="Add" type="submit" className="btn">Add</button>
                 </form>
                 <Message style={{ backgroundColor: 'lightgrey' }} >
-                    <h4>Inserted {this.state.count} activities today </h4>
+                    <div><h4>Inserted {this.state.count} activities today </h4></div>
                 </Message>
-                <hr/>
+                <hr />
                 {this.props.children}
+                <span></span>
             </div>
             )
     }

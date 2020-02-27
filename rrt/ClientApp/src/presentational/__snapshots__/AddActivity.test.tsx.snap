@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing snapshot snapshot testing towards AddActivity component 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      id="activity"
+    />
+    <button
+      className="btn"
+      id="Add"
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+  <div
+    style={
+      Object {
+        "backgroundColor": "lightgrey",
+      }
+    }
+  >
+    <h2>
+      <div>
+        <h4>
+          Inserted 
+          0
+           activities today 
+        </h4>
+      </div>
+    </h2>
+     
+  </div>
+  <hr />
+  <span />
+</div>
+`;

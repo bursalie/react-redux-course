@@ -38,8 +38,11 @@
     <None Remove="ClientApp\src\middleware\logger.ts" />
     <None Remove="ClientApp\src\presentational\ActivityItem.tsx" />
     <None Remove="ClientApp\src\presentational\ActivityList.tsx" />
+    <None Remove="ClientApp\src\presentational\AddActivity.test.tsx" />
     <None Remove="ClientApp\src\presentational\AddActivity.tsx" />
     <None Remove="ClientApp\src\presentational\App.tsx" />
+    <None Remove="ClientApp\src\presentational\BuggyCounter.tsx" />
+    <None Remove="ClientApp\src\presentational\ErrorBoundary.tsx" />
     <None Remove="ClientApp\src\presentational\FilterLinkNav.tsx" />
     <None Remove="ClientApp\src\presentational\footer.tsx" />
     <None Remove="ClientApp\src\presentational\FooterNav.tsx" />
@@ -78,7 +81,10 @@
     <TypeScriptCompile Include="ClientApp\src\presentational\ActivityItem.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\ActivityList.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\AddActivity.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\presentational\AddActivity.test.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\App.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\presentational\BuggyCounter.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\presentational\ErrorBoundary.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\FilterLinkNav.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\footer.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\FooterNav.tsx" />
