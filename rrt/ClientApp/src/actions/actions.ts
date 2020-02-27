@@ -70,21 +70,25 @@ export const changeActivityAsync = (activity:Activity) => {
         }
     }
 }
+
 export const changeActivity: ActionCreator<ActivityAction> = (index: number):
     ActivityAction => {
     const action: ActivityAction = { type: ActivityEnum.CHANGE_ACTIVITY, index: index }
     return action;
 }
+
 export const setVisibility: ActionCreator<FilterAction> = (filter: VisibilityFilters):
     FilterAction => {
     const action: FilterAction = { type: FilterEnum.SET_VISIBILITY_FILTER, filter: filter }
     return action;
 }
+
 export const sendMessage: ActionCreator<MessageAction> = (msg: string):
     MessageAction => {
     const action: MessageAction = { type: MessageEnum.SEND_MESSAGE, msg }
     return action;
 }
+
 export const requestStart: ActionCreator<AsyncAction> = (msg: string):
     AsyncAction => {
     const action: AsyncAction = { type: AsyncEnum.ASYNC_REQUEST_START, isFetching: true, msg:msg }

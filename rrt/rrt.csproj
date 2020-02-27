@@ -34,6 +34,8 @@
     <None Remove="ClientApp\src\index.tsx" />
     <None Remove="ClientApp\src\jsxintro\jsxintro.tsx" />
     <None Remove="ClientApp\src\jsxintro\welcome.tsx" />
+    <None Remove="ClientApp\src\middleware\logger.test.ts" />
+    <None Remove="ClientApp\src\middleware\logger.ts" />
     <None Remove="ClientApp\src\presentational\ActivityItem.tsx" />
     <None Remove="ClientApp\src\presentational\ActivityList.tsx" />
     <None Remove="ClientApp\src\presentational\AddActivity.tsx" />
@@ -45,6 +47,7 @@
     <None Remove="ClientApp\src\presentational\spinner.tsx" />
     <None Remove="ClientApp\src\reducers\reducers.ts" />
     <None Remove="ClientApp\src\registerServiceWorker.js" />
+    <None Remove="ClientApp\src\selectors\selectors.ts" />
     <None Remove="ClientApp\src\store\store.ts" />
     <None Remove="ClientApp\src\typesandconst\typesandconst.ts" />
     <None Remove="ClientApp\tsconfig.json" />
@@ -67,6 +70,8 @@
     <TypeScriptCompile Include="ClientApp\src\index.tsx" />
     <TypeScriptCompile Include="ClientApp\src\jsxintro\jsxintro.tsx" />
     <TypeScriptCompile Include="ClientApp\src\jsxintro\welcome.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\middleware\logger.test.ts" />
+    <TypeScriptCompile Include="ClientApp\src\middleware\logger.ts" />
     <TypeScriptCompile Include="ClientApp\src\presentational\ActivityItem.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\ActivityList.tsx" />
     <TypeScriptCompile Include="ClientApp\src\presentational\AddActivity.tsx" />
@@ -78,6 +83,7 @@
     <TypeScriptCompile Include="ClientApp\src\presentational\spinner.tsx" />
     <TypeScriptCompile Include="ClientApp\src\reducers\reducers.ts" />
     <TypeScriptCompile Include="ClientApp\src\registerServiceWorker.js" />
+    <TypeScriptCompile Include="ClientApp\src\selectors\selectors.ts" />
     <TypeScriptCompile Include="ClientApp\src\store\store.ts" />
     <TypeScriptCompile Include="ClientApp\src\typesandconst\typesandconst.ts" />
   </ItemGroup>
